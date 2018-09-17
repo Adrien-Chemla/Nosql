@@ -1,0 +1,34 @@
+[2018-03-23T09:39:27,249][INFO ][o.e.n.Node               ] [] initializing ...
+[2018-03-23T09:39:27,326][INFO ][o.e.e.NodeEnvironment    ] [9NOv1Gd] using [1] data paths, mounts [[/ (/dev/disk1s1)]], net usable_space [62gb], net total_space [112.7gb], types [apfs]
+[2018-03-23T09:39:27,327][INFO ][o.e.e.NodeEnvironment    ] [9NOv1Gd] heap size [990.7mb], compressed ordinary object pointers [true]
+[2018-03-23T09:39:27,329][INFO ][o.e.n.Node               ] node name [9NOv1Gd] derived from node ID [9NOv1GdfTxC_jpe7qYcEjQ]; set [node.name] to override
+[2018-03-23T09:39:27,330][INFO ][o.e.n.Node               ] version[6.2.3], pid[798], build[c59ff00/2018-03-13T10:06:29.741383Z], OS[Mac OS X/10.13.3/x86_64], JVM[Oracle Corporation/Java HotSpot(TM) 64-Bit Server VM/1.8.0_144/25.144-b01]
+[2018-03-23T09:39:27,330][INFO ][o.e.n.Node               ] JVM arguments [-Xms1g, -Xmx1g, -XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -XX:-OmitStackTraceInFastThrow, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Djava.io.tmpdir=/var/folders/bh/38w55c694_gbp86y61b6smm40000gn/T/elasticsearch.HsoTF8FF, -XX:+HeapDumpOnOutOfMemoryError, -XX:+PrintGCDetails, -XX:+PrintGCDateStamps, -XX:+PrintTenuringDistribution, -XX:+PrintGCApplicationStoppedTime, -Xloggc:logs/gc.log, -XX:+UseGCLogFileRotation, -XX:NumberOfGCLogFiles=32, -XX:GCLogFileSize=64m, -Des.path.home=/Users/achemla/Desktop/Cours/mongoDB/elasticsearch, -Des.path.conf=/Users/achemla/Desktop/Cours/mongoDB/elasticsearch/config]
+[2018-03-23T09:39:27,987][INFO ][o.e.p.PluginsService     ] [9NOv1Gd] loaded module [aggs-matrix-stats]
+[2018-03-23T09:39:27,989][INFO ][o.e.p.PluginsService     ] [9NOv1Gd] loaded module [analysis-common]
+[2018-03-23T09:39:27,989][INFO ][o.e.p.PluginsService     ] [9NOv1Gd] loaded module [ingest-common]
+[2018-03-23T09:39:27,989][INFO ][o.e.p.PluginsService     ] [9NOv1Gd] loaded module [lang-expression]
+[2018-03-23T09:39:27,989][INFO ][o.e.p.PluginsService     ] [9NOv1Gd] loaded module [lang-mustache]
+[2018-03-23T09:39:27,989][INFO ][o.e.p.PluginsService     ] [9NOv1Gd] loaded module [lang-painless]
+[2018-03-23T09:39:27,990][INFO ][o.e.p.PluginsService     ] [9NOv1Gd] loaded module [mapper-extras]
+[2018-03-23T09:39:27,990][INFO ][o.e.p.PluginsService     ] [9NOv1Gd] loaded module [parent-join]
+[2018-03-23T09:39:27,990][INFO ][o.e.p.PluginsService     ] [9NOv1Gd] loaded module [percolator]
+[2018-03-23T09:39:27,990][INFO ][o.e.p.PluginsService     ] [9NOv1Gd] loaded module [rank-eval]
+[2018-03-23T09:39:27,990][INFO ][o.e.p.PluginsService     ] [9NOv1Gd] loaded module [reindex]
+[2018-03-23T09:39:27,990][INFO ][o.e.p.PluginsService     ] [9NOv1Gd] loaded module [repository-url]
+[2018-03-23T09:39:27,990][INFO ][o.e.p.PluginsService     ] [9NOv1Gd] loaded module [transport-netty4]
+[2018-03-23T09:39:27,990][INFO ][o.e.p.PluginsService     ] [9NOv1Gd] loaded module [tribe]
+[2018-03-23T09:39:27,991][INFO ][o.e.p.PluginsService     ] [9NOv1Gd] no plugins loaded
+[2018-03-23T09:39:30,537][INFO ][o.e.d.DiscoveryModule    ] [9NOv1Gd] using discovery type [zen]
+[2018-03-23T09:39:30,981][INFO ][o.e.n.Node               ] initialized
+[2018-03-23T09:39:30,981][INFO ][o.e.n.Node               ] [9NOv1Gd] starting ...
+[2018-03-23T09:39:31,154][INFO ][o.e.t.TransportService   ] [9NOv1Gd] publish_address {127.0.0.1:9300}, bound_addresses {[::1]:9300}, {127.0.0.1:9300}
+[2018-03-23T09:39:34,254][INFO ][o.e.c.s.MasterService    ] [9NOv1Gd] zen-disco-elected-as-master ([0] nodes joined), reason: new_master {9NOv1Gd}{9NOv1GdfTxC_jpe7qYcEjQ}{3aUKNNkzQKmk4Ahprt5q2g}{127.0.0.1}{127.0.0.1:9300}
+[2018-03-23T09:39:34,259][INFO ][o.e.c.s.ClusterApplierService] [9NOv1Gd] new_master {9NOv1Gd}{9NOv1GdfTxC_jpe7qYcEjQ}{3aUKNNkzQKmk4Ahprt5q2g}{127.0.0.1}{127.0.0.1:9300}, reason: apply cluster state (from master [master {9NOv1Gd}{9NOv1GdfTxC_jpe7qYcEjQ}{3aUKNNkzQKmk4Ahprt5q2g}{127.0.0.1}{127.0.0.1:9300} committed version [1] source [zen-disco-elected-as-master ([0] nodes joined)]])
+[2018-03-23T09:39:34,274][INFO ][o.e.h.n.Netty4HttpServerTransport] [9NOv1Gd] publish_address {127.0.0.1:9200}, bound_addresses {[::1]:9200}, {127.0.0.1:9200}
+[2018-03-23T09:39:34,274][INFO ][o.e.n.Node               ] [9NOv1Gd] started
+[2018-03-23T09:39:34,280][INFO ][o.e.g.GatewayService     ] [9NOv1Gd] recovered [0] indices into cluster_state
+[2018-03-23T13:43:58,240][INFO ][o.e.n.Node               ] [9NOv1Gd] stopping ...
+[2018-03-23T13:43:58,259][INFO ][o.e.n.Node               ] [9NOv1Gd] stopped
+[2018-03-23T13:43:58,260][INFO ][o.e.n.Node               ] [9NOv1Gd] closing ...
+[2018-03-23T13:43:58,269][INFO ][o.e.n.Node               ] [9NOv1Gd] closed
